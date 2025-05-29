@@ -1,10 +1,10 @@
 
 export const StatsSection = () => {
   const stats = [
-    { value: "15+", label: "Years Experience" },
-    { value: "500M+", label: "Volume Traded" },
-    { value: "200+", label: "Active Clients" },
-    { value: "24/7", label: "Market Access" }
+    { value: "15+", label: "Лет опыта" },
+    { value: "500M+", label: "Объем торгов" },
+    { value: "200+", label: "Активных клиентов" },
+    { value: "24/7", label: "Доступ к рынку" }
   ];
 
   return (

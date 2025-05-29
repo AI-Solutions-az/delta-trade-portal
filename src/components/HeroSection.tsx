@@ -20,44 +20,44 @@ export const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
-              <Badge className="bg-[#ff002a] text-white mb-4">SPbMTSB Exchange Partner</Badge>
+              <Badge className="bg-[#ff002a] text-white mb-4">Партнер биржи СПбМТСБ</Badge>
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Your Trusted Partner in 
-                <span className="text-[#ff002a]"> Petroleum Trading</span>
+                Ваш надежный партнер в 
+                <span className="text-[#ff002a]"> торговле нефтепродуктами</span>
               </h1>
               <p className="text-xl text-gray-300 mt-6 max-w-lg">
-                Navigate the complex petroleum markets with confidence. Professional trading services backed by 15+ years of experience on Saint Petersburg Exchange.
+                Уверенно ориентируйтесь на сложных рынках нефтепродуктов. Профессиональные торговые услуги, подкрепленные 15-летним опытом на Санкт-Петербургской бирже.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-[#ff002a] hover:bg-[#cc0022] text-white px-8 py-3">
-                Start Trading Today
+                Начать торговлю сегодня
               </Button>
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3">
-                Learn More
+                Узнать больше
               </Button>
             </div>
           </div>
           
           <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20">
-            <h3 className="text-lg font-semibold mb-4 text-white">Live Market Prices</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Актуальные цены</h3>
             <div className="space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-gray-300">Gasoline A-95</span>
+                <span className="text-gray-300">Бензин А-95</span>
                 <div className="text-right">
                   <span className="text-white font-semibold">${currentPrice.gasoline}</span>
                   <span className="text-green-400 text-sm ml-2">+2.1%</span>
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-300">Crude Oil</span>
+                <span className="text-gray-300">Сырая нефть</span>
                 <div className="text-right">
                   <span className="text-white font-semibold">${currentPrice.oil}</span>
                   <span className="text-green-400 text-sm ml-2">+1.8%</span>
                 </div>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-300">Natural Gas</span>
+                <span className="text-gray-300">Природный газ</span>
                 <div className="text-right">
                   <span className="text-white font-semibold">${currentPrice.gas}</span>
                   <span className="text-red-400 text-sm ml-2">-0.5%</span>
@@ -65,7 +65,7 @@ export const HeroSection = () => {
               </div>
             </div>
             <Button variant="ghost" className="w-full mt-4 text-white hover:bg-white/20">
-              View Full Trading Platform
+              Перейти к торговой платформе
             </Button>
           </div>
         </div>

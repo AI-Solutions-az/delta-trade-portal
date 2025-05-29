@@ -7,23 +7,23 @@ export const ServicesSection = () => {
   const services = [
     {
       icon: <TrendingUp className="h-8 w-8" />,
-      title: "Petroleum Trading",
-      description: "Spot trading, forward contracts, and derivatives on SPbMTSB exchange"
+      title: "Торговля нефтепродуктами",
+      description: "Спотовые сделки, форвардные контракты и деривативы на бирже СПбМТСБ"
     },
     {
       icon: <BarChart3 className="h-8 w-8" />,
-      title: "Market Analysis",
-      description: "Daily reports, price forecasting, and comprehensive risk assessment"
+      title: "Анализ рынка",
+      description: "Ежедневные отчеты, прогнозирование цен и комплексная оценка рисков"
     },
     {
       icon: <Globe className="h-8 w-8" />,
-      title: "Exchange Services",
-      description: "Full access to Saint Petersburg Exchange Market trading platform"
+      title: "Биржевые услуги",
+      description: "Полный доступ к торговой платформе Санкт-Петербургской биржи"
     },
     {
       icon: <Shield className="h-8 w-8" />,
-      title: "Risk Management",
-      description: "Advanced hedging strategies and portfolio risk optimization"
+      title: "Управление рисками",
+      description: "Передовые стратегии хеджирования и оптимизация портфельных рисков"
     }
   ];
 
@@ -32,10 +32,10 @@ export const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Comprehensive Trading Services
+            Комплексные торговые услуги
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            From spot trading to complex derivatives, we provide the full spectrum of petroleum trading services to meet your business needs.
+            От спотовых сделок до сложных деривативов - мы предоставляем полный спектр услуг по торговле нефтепродуктами для удовлетворения потребностей вашего бизнеса.
           </p>
         </div>
         
@@ -59,7 +59,7 @@ export const ServicesSection = () => {
         
         <div className="text-center mt-12">
           <Button size="lg" variant="outline" className="border-[#ff002a] text-[#ff002a] hover:bg-[#ff002a] hover:text-white">
-            View All Services
+            Все услуги
           </Button>
         </div>
       </div>
