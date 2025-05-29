@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   return (
@@ -17,7 +18,7 @@ export const Navigation = () => {
               <a href="#home" className="text-gray-900 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Главная</a>
               <a href="#about" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">О нас</a>
               <a href="#services" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Услуги</a>
-              <a href="#news" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Новости</a>
+              <Link to="/news" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Новости</Link>
               <a href="#contact" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Контакты</a>
             </div>
           </div>
