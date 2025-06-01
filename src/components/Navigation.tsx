@@ -6,6 +6,13 @@ import { ContactModal } from "./ContactModal";
 export const Navigation = () => {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <nav className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
@@ -20,7 +27,12 @@ export const Navigation = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 <a href="#home" className="text-gray-900 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Главная</a>
-                <a href="#about" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">О нас</a>
+                <button 
+                  onClick={scrollToAbout}
+                  className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors"
+                >
+                  О нас
+                </button>
                 <a href="#services" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Услуги</a>
                 <a href="#contact" className="text-gray-600 hover:text-[#ff002a] px-3 py-2 text-sm font-medium transition-colors">Контакты</a>
               </div>

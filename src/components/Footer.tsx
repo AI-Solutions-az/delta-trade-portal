@@ -3,7 +3,7 @@ export const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center mb-4">
               <img src="/lovable-uploads/4b81a545-253b-42a5-8529-be28ef4b1b06.png" alt="Delta Trade" className="h-8 w-auto" />
@@ -29,17 +29,6 @@ export const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">О нас</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Руководство</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Новости</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Карьера</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-semibold mb-4">Контакты</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li>+7 (812) 123-45-67</li>
-              <li>trading@deltatrade.ru</li>
-              <li>Санкт-Петербург, Россия</li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,5 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { TrendingUp, BarChart3, Globe, Shield } from "lucide-react";
 
 export const ServicesSection = () => {
@@ -55,12 +54,6 @@ export const ServicesSection = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="border-[#ff002a] text-[#ff002a] hover:bg-[#ff002a] hover:text-white">
-            Все услуги
-          </Button>
         </div>
       </div>
     </section>

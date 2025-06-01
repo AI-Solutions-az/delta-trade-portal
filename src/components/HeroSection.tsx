@@ -6,12 +6,6 @@ import { useState } from "react";
 import { ContactModal } from "./ContactModal";
 
 export const HeroSection = () => {
-  const [currentPrice] = useState({
-    gasoline: 645.50,
-    oil: 89.32,
-    gas: 2.47
-  });
-
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
   return (
@@ -45,33 +39,23 @@ export const HeroSection = () => {
             </div>
             
             <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20">
-              <h3 className="text-lg font-semibold mb-4 text-white">Актуальные цены</h3>
-              <div className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-300">Бензин А-95</span>
-                  <div className="text-right">
-                    <span className="text-white font-semibold">${currentPrice.gasoline}</span>
-                    <span className="text-green-400 text-sm ml-2">+2.1%</span>
-                  </div>
+              <div className="space-y-6">
+                <div className="text-center">
+                  <h3 className="text-2xl font-bold text-white mb-2">Delta Trade</h3>
+                  <p className="text-gray-300">Профессиональная торговля нефтепродуктами</p>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-300">Сырая нефть</span>
-                  <div className="text-right">
-                    <span className="text-white font-semibold">${currentPrice.oil}</span>
-                    <span className="text-green-400 text-sm ml-2">+1.8%</span>
+                <div className="space-y-4">
+                  <div className="flex items-center justify-center">
+                    <span className="text-white">✓ Партнер СПбМТСБ</span>
                   </div>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-gray-300">Природный газ</span>
-                  <div className="text-right">
-                    <span className="text-white font-semibold">${currentPrice.gas}</span>
-                    <span className="text-red-400 text-sm ml-2">-0.5%</span>
+                  <div className="flex items-center justify-center">
+                    <span className="text-white">✓ 15+ лет опыта</span>
+                  </div>
+                  <div className="flex items-center justify-center">
+                    <span className="text-white">✓ Надежные решения</span>
                   </div>
                 </div>
               </div>
-              <Button variant="ghost" className="w-full mt-4 text-white hover:bg-white/20 font-medium">
-                Перейти к торговой платформе
-              </Button>
             </div>
           </div>
         </div>
