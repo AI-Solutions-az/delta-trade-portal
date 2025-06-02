@@ -22,7 +22,7 @@ export const ContactModal = ({ open, onOpenChange }: ContactModalProps) => {
     const formData = new FormData(e.currentTarget);
     
     try {
-      const response = await fetch("https://formsubmit.co/ajax/your-email@example.com", {
+      const response = await fetch("https://formsubmit.co/ajax/office@delta-trd.ru", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
